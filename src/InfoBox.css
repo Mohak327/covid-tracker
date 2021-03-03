@@ -1,0 +1,60 @@
+.infoBox{
+    flex: 1;
+}
+
+.infoBox:hover{
+    cursor: pointer;
+}
+
+.infoBox:not(:last-child){
+    margin-right: 15px;
+}
+
+/* .infoBox:nth-child(odd){
+    margin: 0 15px;
+} */
+
+.infoBox__cases {
+    color: #cc1034;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+.infoBox--selected{
+    border-top: 10px solid greenyellow;
+}
+
+.infoBox__cases:hover{
+    font-weight: 650;
+}
+
+.infoBox__cases .infoBox__cases--green{
+    font-weight: 650;
+}
+
+.infoBox__cases--green{
+    color: lightgreen !important;
+}
+
+.infoBox__cases--purple{
+    color: rgba(102, 51, 153, 1) !important;
+    /* font-weight: 650; */
+}
+
+.infoBox--red{
+    border-color: red;
+}
+
+.infoBox--purple{
+    border-color: rgba(102, 51, 153, 1)
+}
+
+  .infoBox__total {
+    color: #6c757d;
+
+    /* !important is used to overwrite the default styling on material UI CardContent elements. */
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+    margin-top: 15px !important;
+  }
